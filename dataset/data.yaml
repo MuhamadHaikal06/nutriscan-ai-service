@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 29
+names: ['Apple', 'Ayam Goreng', 'Bakso', 'Banana', 'Burger', 'Capcay', 'Chocolate Chip Cookie', 'Donat', 'Ikan Goreng', 'Kentang Goreng', 'Kiwi', 'Mie Goreng', 'Nasi Goreng', 'Nasi Putih', 'Nugget', 'Pempek', 'Pineapples', 'Pizza', 'Rendang Sapi', 'Sate', 'Spaghetti', 'Steak', 'Strawberry', 'Tahu Goreng', 'Telur Goreng', 'Telur Rebus', 'Tempe Goreng', 'Terong Balado', 'Tumis Kangkung']
+
+roboflow:
+  workspace: a-hsxke
+  project: indonesian-food-cd2d4
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/a-hsxke/indonesian-food-cd2d4/dataset/8
